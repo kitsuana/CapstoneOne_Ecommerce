@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Artist's Den</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\css\styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #f1e2c6;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #d9d7d3;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="https://placehold.co/600x400" alt="Logo" width="45" height="24" class="d-inline-block align-text-top"> 
-          Website name
+          Artist's Den
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,7 +47,110 @@
       </div>
     </nav>
 
-    <h1>Hello, world!</h1>
+    <h1>Account Registration</h1>
+
+    <section class="vh-100" style="background-color: #eee;">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-12 col-xl-11">
+            <div class="card text-black" style="border-radius: 25px;">
+              <div class="card-body p-md-5">
+                <div class="row justify-content-center">
+                  <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                    <form class="mx-1 mx-md-4 needs-validation" novalidate>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="text" id="nameInput" class="form-control" required />
+                          <label class="form-label" for="nameInput">Your Name<span aria-label="required">*</span></label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="email" id="emailInput" class="form-control" required />
+                          <label class="form-label" for="emailInput">Your Email<span aria-label="required">*</span></label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="text" id="usernameInput" class="form-control" required />
+                          <label class="form-label" for="usernameInput">Username<span aria-label="required">*</span></label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                        <div class="form-outlininlinee flex-fill mb-0">
+                          <input type="password" id="passwordInput" class="form-control" required />
+                          <label class="form-label" for="passwordInput">Password<span aria-label="required">*</span></label>
+                        </div>
+                      </div>
+
+                      <div class="d-flex flex-row align-items-center mb-4">
+                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                          <input type="password" id="passwordRepeat" class="form-control" required />
+                          <label class="form-label" for="passwordRepeat">Repeat your password<span aria-label="required">*</span></label>
+                        </div>
+                      </div>
+                      <!-- unformatted radio buttons -->
+                      <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                        <h6 class="mb-0 me-4">How did you hear about us?</h6>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="socialMedia" value="option1" />
+                          <label class="form-check-label" for="socialMedia">Social Media</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="webSearch" value="option2" />
+                          <label class="form-check-label" for="webSearch">Web Search</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline mb-0">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="other" value="option3" />
+                          <label class="form-check-label" for="other">Other</label>
+                        </div>
+                        
+                        <div class="invalid-feedback">Please select an option.</div>
+                      </div>
+
+                      <div class="form-check d-flex justify-content-center mb-5">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="invalidCheck" required />
+                        <label class="form-check-label" for="invalidCheck">I agree to the <a href="#!">Terms and Conditions</a><span aria-label="required">*</span></label>
+                        <div class="invalid-feedback">You must agree before submitting.</div>              
+                      </div>
+
+                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                        <button class="btn btn-primary btn-lg" type="submit">Register</button>
+                      </div>
+
+                    </form>
+
+                  </div>
+                  <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                      class="img-fluid" alt="Sample image">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

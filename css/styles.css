@@ -1,0 +1,8 @@
+p {
+    max-width: 600px;
+}
+
+form-valid-color {color: darkolivegreen};
+form-valid-border-color {border-color: darkolivegreen};
+form-invalid-color {color: maroon};
+form-invalid-border-color {border-color: maroon};
