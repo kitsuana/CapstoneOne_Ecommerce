@@ -4,27 +4,63 @@
     <img src="images/pottery-ceramics-logo-design-three-260nw-2285739799.jpg" alt="ceramicsLogo" width="80" height="80">
   </a>
 
-<h3 align="center">Capstone 1: Ecommerce</h3>
+<h1 align="center">Capstone 1: Ecommerce</h1>
 
 <br/>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The website focuses on Pottery/Ceramics. Most of the artists are globally renowned for what they do. It is an art form that can be functional and/or scuptural. The entire site is responsive.
 
 
 
-## Getting Started
+### Home Page
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+We start at the home page where the fun begins. 
+There is a hero image and below that paragraphs and a 'Featured Artists' section. 
+
+![home-page](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/382bc815-a3a1-4aa4-8feb-31e97908a0c8)
 
 
 
-## Usage
+### Products Page
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The products page has 6 product cards with borders and list items. The Add to Cart button currently directs to the checkout page. 
+
+![products-page](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/4861ce98-2449-4b91-b093-87e8c191f23f)
+
+
+
+### Registration Page
+
+The registration page has validation for the form and a responsive image.
+
+![registration-page](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/b159f240-2113-4c20-9def-cc4cedb1062c)
+
+
+
+### Log In Page
+
+A simple log in page with validation and a responsive image.
+
+![login-page](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/76f57598-2c3a-4739-a364-59529f063cfa)
+
+
+
+### Checkout Page
+
+A cart summary list and shipping and checkout information form.
+
+![checkout-page](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/a7aaabfa-efc2-40d9-9b71-d831f63b7501)
+
+
+## Favorite Feature
+
+The navbar is translucent (blur filter) which was very fun to make. 
+
+![navbar-sm](https://github.com/kitsuana/CapstoneOne_Ecommerce/assets/120301867/6f24439c-1069-4551-a352-d0d3d2716ef8)
 
 
 
@@ -46,7 +82,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Built With
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
