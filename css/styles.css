@@ -24,15 +24,16 @@ body ul, p {
     font-size: 30px !important;
     color: #222;
     line-height: 1.3;
+    margin-bottom: 10px;
 }
 
 #artistQuoteArtisit {
-    border-top: 1px #212120df solid;
-    margin-bottom: 20px;
+    border-top: 1px #000000c3 solid;
+    margin-bottom: 50px;
 }
 
 .card.object {
-    border-color: black;
+    border-color: #000000c3;
     backdrop-filter: blur(10px);
     background-color: rgba(205, 203, 200, 0.315)
 }
@@ -55,10 +56,14 @@ body ul, p {
 
 .card.text-black {
     border-radius: 0%; 
-    border-color: rgba(0, 0, 0, 0.704); 
+    border-color: #000000c3; 
     border-width: 1px;
     background-color: #ffffff7d;
     margin-bottom: 50px;
+}
+
+.form-check-label, .form-check-input {
+    color: black;
 }
 
 form-valid-color {color: darkolivegreen};
