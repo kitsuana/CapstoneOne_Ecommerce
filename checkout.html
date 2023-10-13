@@ -41,26 +41,142 @@
         </div>
       </nav>
 
-      <h1>Checkout</h1>
     </header>
     
     <main>
       <div class="container">
           <div class="p-2 text-center">
-              <h1 class="display-4">Your details</h1>
+              <h1 class="display-4">Checkout</h1>
           </div>
-          <!-- cart summary or coupon code? -->
-          <div class="row g-5 my-5">
-              <div class="col-md-5 col-lg-4 order-md-last">
-                  <h4 class="mb-3">Cart Summary</h4>
-                  <form class="card p-2">
-                      <div class="input-group">
-                          
+                  <section class="h-100 h-custom">
+                    <div class="container py-5">
+                      <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-body p-4">
+                  
+                              <div class="row">
+                  
+                                <div class="col-lg-7">
+                                  <h5 class="mb-3"><a href="products.html" class="text-body"><i
+                                        class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping</a></h5>
+                                  <hr>
+                  
+                                  <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div>
+                                      <p class="mb-1">Shopping cart</p>
+                                      <p class="mb-0">You have 3 items in your cart</p>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="images/Feather-Leaves-Bowl-Hitomi-Hosono.jpg"
+                                              class="img-fluid rounded-3" alt="Feather Leaves Bowl" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Feather Leaves Bowl</h5>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div style="width: 50px;">
+                                            <h5 class="fw-normal mb-0"></h5>
+                                          </div>
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$10000</h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                
+                                  <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="images/PXL_20220322_024716886.PORTRAIT.jpeg"
+                                              class="img-fluid rounded-3" alt="Hills of Our Land Low vase" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Hills of Our Land - Low</h5>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div style="width: 50px;">
+                                            <h5 class="fw-normal mb-0"></h5>
+                                          </div>
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$985</h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="card mb-3 mb-lg-0">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="images/d5eb7bf9c4fa152c6cadf5d42c2f6b5e.jpg"
+                                              class="img-fluid rounded-3" alt="Seraphim ceramic sculpture" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Seraphim</h5>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div style="width: 50px;">
+                                            <h5 class="fw-normal mb-0"></h5>
+                                          </div>
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$18000</h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                  
+                                      <hr class="my-4">
+                  
+                                      <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Subtotal</p>
+                                        <p class="mb-2">$28985.00</p>
+                                      </div>
+                  
+                                      <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Shipping</p>
+                                        <p class="mb-2">$50.00</p>
+                                      </div>
+                  
+                                      <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Total</p>
+                                        <p class="mb-2">$29035.00</p>
+                                      </div>
+                  
+                                    </div>
+                                  </div>
+                  
+                                </div>
+                  
+                              </div>
+                  
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                  </form>
+                    </div>
+                  </section>
               </div>
 
-              <div class="col-md-7 col-lg-8">
+              <div class="col-md-7 col-lg-8" style="margin: auto;">
                   <h4 class="mb-3">Your address</h4>
                   <form class="needs-validation" action="confirmation.html" method="get" novalidate>
                       <div class="row g-3">
@@ -233,7 +349,7 @@
 
                       <hr class="my-4">
 
-                      <button class="w-100 btn btn-secondary btn-lg" type="submit">Place order</button>
+                      <button class="btn btn-secondary btn-lg mb-3" type="submit" style="max-width: 300px;">Place order</button>
                   </form>
               </div>
           </div>
