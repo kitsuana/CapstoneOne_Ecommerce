@@ -4,48 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Artist's Den</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\css\styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" >
+    <link rel="stylesheet" href="css/styles.css" >
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #d9d7d3;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="https://placehold.co/600x400" alt="Logo" width="45" height="24" class="d-inline-block align-text-top"> 
-          Artist's Den
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\products-services.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\checkout.html">Checkout</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\user-registration.html">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Users\Stella\LearnToCode\Capstone\capstone1_ecommerce\user-login.html">Log In</a>
-            </li>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://placehold.co/600x400" alt="Logo" width="45" height="24" class="d-inline-block align-text-top"> 
+            Artist's Den
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="checkout.html">Checkout</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="user-registration.html">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="user-login.html">Log In</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <h1>Account Registration</h1>
 
@@ -64,41 +59,41 @@
 
                       <div class="d-flex flex-row align-items-center mb-4">
                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="text" id="nameInput" class="form-control" required />
+                        <div class="form-outline flex-fill mb-0 form-floating">
+                          <input type="text" id="nameInput" class="form-control" placeholder="Name" required>
                           <label class="form-label" for="nameInput">Your Name<span aria-label="required">*</span></label>
                         </div>
                       </div>
 
-                      <div class="d-flex flex-row align-items-center mb-4">
+                      <div class="d-flex flex-row align-items-center mb-4 form-floating">
                         <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                         <div class="form-outline flex-fill mb-0">
-                          <input type="email" id="emailInput" class="form-control" required />
+                          <input type="email" id="emailInput" class="form-control" placeholder="name@example.com" required>
                           <label class="form-label" for="emailInput">Your Email<span aria-label="required">*</span></label>
                         </div>
                       </div>
 
-                      <div class="d-flex flex-row align-items-center mb-4">
+                      <div class="d-flex flex-row align-items-center mb-4 form-floating">
                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                         <div class="form-outline flex-fill mb-0">
-                          <input type="text" id="usernameInput" class="form-control" required />
+                          <input type="text" id="usernameInput" class="form-control" placeholder="Username" required>
                           <label class="form-label" for="usernameInput">Username<span aria-label="required">*</span></label>
                         </div>
                       </div>
 
-                      <div class="d-flex flex-row align-items-center mb-4">
+                      <div class="d-flex flex-row align-items-center mb-4 form-floating">
                         <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                         <div class="form-outlininlinee flex-fill mb-0">
-                          <input type="password" id="passwordInput" class="form-control" required />
+                          <input type="password" id="passwordInput" class="form-control" placeholder="Password" required>
                           <label class="form-label" for="passwordInput">Password<span aria-label="required">*</span></label>
                         </div>
                       </div>
 
-                      <div class="d-flex flex-row align-items-center mb-4">
+                      <div class="d-flex flex-row align-items-center mb-4 form-floating">
                         <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                         <div class="form-outline flex-fill mb-0">
-                          <input type="password" id="passwordRepeat" class="form-control" required />
-                          <label class="form-label" for="passwordRepeat">Repeat your password<span aria-label="required">*</span></label>
+                          <input type="password" id="passwordRepeat" class="form-control" placeholder="Retype Password" required>
+                          <label class="form-label" for="passwordRepeat">Retype your password<span aria-label="required">*</span></label>
                         </div>
                       </div>
                       <!-- unformatted radio buttons -->
@@ -107,17 +102,17 @@
                         <h6 class="mb-0 me-4">How did you hear about us?</h6>
       
                         <div class="form-check form-check-inline mb-0 me-4">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="socialMedia" value="option1" />
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="socialMedia" value="option1" >
                           <label class="form-check-label" for="socialMedia">Social Media</label>
                         </div>
       
                         <div class="form-check form-check-inline mb-0 me-4">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="webSearch" value="option2" />
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="webSearch" value="option2" >
                           <label class="form-check-label" for="webSearch">Web Search</label>
                         </div>
       
                         <div class="form-check form-check-inline mb-0">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="other" value="option3" />
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="other" value="option3" >
                           <label class="form-check-label" for="other">Other</label>
                         </div>
                         
@@ -125,7 +120,7 @@
                       </div>
 
                       <div class="form-check d-flex justify-content-center mb-5">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="invalidCheck" required />
+                        <input class="form-check-input me-2" type="checkbox" value="" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">I agree to the <a href="#!">Terms and Conditions</a><span aria-label="required">*</span></label>
                         <div class="invalid-feedback">You must agree before submitting.</div>              
                       </div>
@@ -152,5 +147,6 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scripts/form-validation.js"></script>
   </body>
 </html>
